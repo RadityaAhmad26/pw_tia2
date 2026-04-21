@@ -1,72 +1,11 @@
-<?php
-//Materi Variabel dan Tipe Data
-$nama = "Ronaldo";
-$umur = 40;
-$tinggi = 185.9;
-$hobi = ["Bermain Bola","Renang"];
-
-echo "Nama Saya $nama, Umur Saya $umur, Tinggi Saya $tinggi, Hobi Saya $hobi[0]";
-
-
-
-echo "<br><br>======================================================<br><br>";
-
-//Operator dan Kondisi (if else)
-
-$nilai1 = 10;
-$nilai2 = 10;
-$hasil =$nilai1 + $nilai2;
-
-echo "hasil dari $nilai1 + $nilai2 = $hasil ";
-
-echo "<br><br>======================================================<br><br>";
-jjj,,,,
-$nilai1 = 10;
-$nilai2 = 10;
-$hasil =$nilai1 * $nilai2;
-
-echo "hasil dari $nilai1 * $nilai2 = $hasil ";
-
-echo "<br><br>======================================================<br><br>";
-
-$nilai1 = 10;
-$nilai2 = 10;
-$hasil =$nilai1 - $nilai2;
-
-echo "hasil dari $nilai1 - $nilai2 = $hasil ";
-
-echo "<br><br>======================================================<br><br>";
-
-$nilai1 = 10;
-$nilai2 = 10;
-$hasil =$nilai1 / $nilai2;
-
-echo "hasil dari $nilai1 / $nilai2 = $hasil ";
-
-echo "<br><br>======================================================<br><br>";
-
-//Pengkondisian
-
-$nilai = 99;
-
- if($nilai >= 90){
-    echo "Nilai anda A";
- }else if ($nilai >= 80){
-    echo "Nilai anda B";
- }else if ($nilai >= 70){
-    echo "Nilai anda C";
- }
-
-echo "<br><br>======================================================<br><br>";
-
-$angka = 1;
-$angka = 2;
-
- if($angka = 1){
-    echo "Ganjil";
- }else if ($angka = 2){
-    echo "Genap";
- }
-
-
-?>
+<?php 
+ echo"<br><button><a href='Materi1.php'>Materi 1 : Variabel dan tipe data</a></button>";
+ echo"<br><button><a href='materi2.php'>Materi 2 : konndisi daan looping</a></button>";
+ echo"<br><button><a href='materi3.php'>Materi 3</a></button>";
+ echo"<br><button><a href='materi4.php'>Materi 4</a></button>";
+ echo"<br><button><a href='materi5.php'>Materi 5</a></button>";
+ echo"<br><button><a href='materi6.php'>Materi 6</a></button>";
+ echo"<br><button><a href='materi7.php'>Materi 7</a></button>";
+ echo"<br><button><a href='materi8.php'>Materi 8</a></button>";
+ echo"<br><button><a href='materi9.php'>Materi 9</a></button>";
+ echo"<br><button><a href='materi10.php'>Materi 10</a></button>";
